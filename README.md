@@ -7,14 +7,13 @@ architecture to segment the images for ten binary classes.
 
 ## Check out the notebooks
 
-- Exploration_and_Setup.ipynb looks at the images and their labels and shows how cropping and augmentations look like
-- Training.ipynb prepares and trains a U-Net model for one to ten classes in PyTorch
-  - While training loss curves and validation mask predictions are exported with visdom. Start the visdom server with 
-'''python 
+- [Exploration_and_Setup.ipynb](Exploration_and_Setup.ipynb) looks at the images and their labels and shows how cropping and augmentations look like
+- [Training.ipynb](Training.ipynb) prepares and trains a U-Net model for one to ten classes in PyTorch
+  - While training loss curves and validation mask predictions are exported with visdom. Start the visdom server with ```python
 python -m visdom.server
-'''
-- Predict.ipynb predicts test image masks and saves them for later submission
-- Evaluate and Submit.ipynb
+```
+- [Predict.ipynb](Predict.ipynb) predicts test image masks and saves them for later submission
+- [Evaluate and Submit.ipynb](Evaluate and Submit.ipynb) shows our results on the validation images and creates the final submission, which we also check.
 
 ## Example input image
 ![Raw training image](Raw--6120_2_2.png "One training image in RGB")
