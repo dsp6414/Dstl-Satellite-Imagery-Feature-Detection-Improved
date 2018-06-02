@@ -10,7 +10,9 @@ architecture to segment the images for ten binary classes.
 - Exploration_and_Setup.ipynb looks at the images and their labels and shows how cropping and augmentations look like
 - Training.ipynb prepares and trains a U-Net model for one to ten classes in PyTorch
   - While training loss curves and validation mask predictions are exported with visdom. Start the visdom server with 
-'''python python -m visdom.server'''
+'''python 
+python -m visdom.server
+'''
 - Predict.ipynb predicts test image masks and saves them for later submission
 - Evaluate and Submit.ipynb
 
@@ -20,6 +22,4 @@ architecture to segment the images for ten binary classes.
 ## Example output feature detection
 ![Binary segmentations](Image--6120_2_2.png "Ten binary segmentations for all classes")
 
-## Check out the notebooks
-
-#### Thanks to visoft, n01z3, Sergey Mushinskiy, Konstantin Lopuhin for the great scripts and discussions.
+#### Thanks to Konstantin Lopuhin from who I used some code from [his repo](https://github.com/lopuhin/kaggle-dstl).
