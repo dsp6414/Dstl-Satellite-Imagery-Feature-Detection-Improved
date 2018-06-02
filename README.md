@@ -14,7 +14,7 @@ architecture to segment the images for ten binary classes.
 python -m visdom.server
 ```
 - [Predict.ipynb](Predict.ipynb) predicts test image masks and saves them for later submission
-- [Evaluate and Submit.ipynb](Evaluate and Submit.ipynb) shows our results on the validation images and creates the final submission, which we also check.
+- [Evaluate_and_Submit.ipynb](Evaluate_and_Submit.ipynb) shows our results on the validation images and creates the final submission, which we also check.
 
 ## Example input image
 ![Raw training image](Raw--6120_2_2.png "One training image in RGB")
